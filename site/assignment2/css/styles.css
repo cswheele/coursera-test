@@ -1,0 +1,17 @@
+
+.box {
+
+}
+
+
+@media (width >= 992px) {     /*Desktop View */
+
+}
+
+@media (768px <= width <= 991px) {      /*Tablet View */
+
+}
+
+@media (width <= 767px) {       /*Mobile View */
+
+}
