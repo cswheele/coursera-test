@@ -1,5 +1,9 @@
 #container {
+  position: absolute;
+  top: 7vw;
   width: 100%;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 * {
@@ -8,24 +12,50 @@
 
 h1 {
   text-align: center;
+  font-size: 4vw;
+}
+
+h2 {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  text-align: right;
+  background-color: darkGrey;
+  color: white;
+  border: 1px solid black;
+}
+
+p {
+  padding: 10px 10px 10px 0px;
+  margin: 10px 10px 10px 0px;
 }
 
 #sect1 {
   background-color: lightBlue;
+    position: relative;
+    margin: 2vw;
+    border: 1px solid black;
 }
 
 #sect2 {
   background-color: lightGreen;
+    position: relative;
+    margin: 2vw;
+    border: 1px solid black;
 }
 
 #sect3 {
   background-color: lightGray;
+    position: relative;
+    margin: 2vw;
+    border: 1px solid black;
+    border
 }
 
 @media (min-width: 992px) {     /*Desktop View */
   .box {
     float: left;
-    width: 33%;
+    width: 28vw;
     padding: 10px;
   }
 }
@@ -33,12 +63,12 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {      /*Tablet View */
   #sect1, #sect2 {
     float: left;
-    width: 50%;
+    width: 43.5vw;
     padding: 10px;
   }
   #sect3 {
     float: left;
-    width: 100%;
+    width: 91vw;
     padding: 10px;
   }
 }
@@ -46,6 +76,7 @@ h1 {
 @media (max-width: 767px) {       /*Mobile View */
   .box {
     float: left;
-    width: 100%;
+    width: 92vw;
     padding: 10px;
+  }
 }
